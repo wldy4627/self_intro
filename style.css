@@ -59,8 +59,8 @@ body {
 .profile-photo {
    border-radius: 50%;
    border: solid #AF8F6F 10px;
-   width: 150px;
-   height: 150px;
+   width: 200px;
+   height: 200px;
    object-fit: cover;
 }
 
@@ -178,4 +178,21 @@ body.dark-mode .skill-bar {
 
 body.dark-mode .skill-level {
    background-color: #00c772;
+}
+
+/* 커서 모양 */
+.right {
+	cursor: none;
+}
+
+.icon-container {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1000;
+    font-size: 50px;
+    color: #AF8F6F;
+}
+
+body.dark-mode .icon-container{
+    color: black;
 }
